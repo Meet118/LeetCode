@@ -1,8 +1,7 @@
 class Solution {
-public:
+public: 
     vector<string> fullJustify(vector<string>& words, int m) {
         int n = words.size();
-
         vector<string> ans;
         for (int i = 0, j = 0; i < n; i ++ ) {
             j = i;
